@@ -1,0 +1,72 @@
+const mobileMenuButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+
+// Toggles the visibility of the mobile menu when the hamburger icon is clicked.
+mobileMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+// Selects all the links within the mobile menu.
+const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+
+// Adds a click event listener to each mobile menu link.
+// When a link is clicked, it hides the mobile menu.
+mobileMenuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
+});
+const mobileMenuButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+
+// Toggles the visibility of the mobile menu when the hamburger icon is clicked.
+mobileMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+// Selects all the links within the mobile menu.
+const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+
+// Adds a click event listener to each mobile menu link.
+// When a link is clicked, it hides the mobile menu.
+mobileMenuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
+});
+const mobileMenuButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+
+// Toggles the visibility of the mobile menu when the hamburger icon is clicked.
+mobileMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+// Selects all the links within the mobile menu.
+const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+
+// Adds a click event listener to each mobile menu link.
+// When a link is clicked, it hides the mobile menu.
+mobileMenuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
+});
+const mobileMenuButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+
+// Toggles the visibility of the mobile menu when the hamburger icon is clicked.
+mobileMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+// Selects all the links within the mobile menu.
+const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+
+// Adds a click event listener to each mobile menu link.
+// When a link is clicked, it hides the mobile menu.
+mobileMenuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+    });
+});
